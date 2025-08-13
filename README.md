@@ -26,7 +26,7 @@ The service demonstrates receiving events via Kafka, persisting them to a databa
 ### 1️⃣ Clone the Repository
 ```bash
 git clone https://github.com/oyeliseiev-ua/ticketing-system-example.git
-cd ticketing-system
+cd ticketing-system-example
 ```
 
 ### Start Kafka & Kafka UI using Docker Compose
@@ -72,6 +72,7 @@ Send a message to the Kafka topic ticket-assignments via Kafka UI or CLI:
   "assigneeId": "agent-007"
 }
 ```
+Check logs: Ticket 1 is successfully assigned to agent-007
 
 ### Produce a Test Message to Update Ticket Status
 Send a message to the Kafka topic ticket-updates via Kafka UI or CLI:
@@ -81,6 +82,7 @@ Send a message to the Kafka topic ticket-updates via Kafka UI or CLI:
   "status": "in_progress"
 }
 ```
+Check logs: Ticket 1 status is successfully updated
 
 ## Message Formats
 
