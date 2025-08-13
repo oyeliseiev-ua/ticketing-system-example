@@ -1,6 +1,6 @@
 # Ticketing System
 
-A simple microservice example using **Spring Boot**, **Kafka**, and the Outbox Pattern to ensure reliable event publishing and message consumption.  
+A simple microservice example using Spring Boot, Kafka and the Outbox Pattern to ensure reliable event publishing and message consumption.  
 The service demonstrates receiving events via Kafka, persisting them to a database, and using clean architecture principles.
 
 ---
